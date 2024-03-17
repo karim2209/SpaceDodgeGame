@@ -1,0 +1,50 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>422f6dac-c5b3-4c42-b158-a406e43bd448</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>SpaceDodge.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>SpaceDodge</Name>
+    <RootNamespace>SpaceDodge</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="SpaceDodge.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bg.jpeg" />
+    <Content Include="collision_sound.wav" />
+    <Content Include="explosion1.png" />
+    <Content Include="explosion2.png" />
+    <Content Include="explosion3.png" />
+    <Content Include="explosion4.png" />
+    <Content Include="explosion5.png" />
+    <Content Include="explosion6.png" />
+    <Content Include="space-120280.mp3" />
+    <Content Include="spaceship1.png" />
+    <Content Include="spaceship2.png" />
+    <Content Include="spaceship3.png" />
+    <Content Include="spaceship4.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

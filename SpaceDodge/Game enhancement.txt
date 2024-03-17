@@ -1,0 +1,11 @@
+Game Enhacements:
+
+- Add score
+- Add background music
+- Add collision sound and animation effect
+- Add player animation effect
+- Add game instructions page
+- Add 3 levels to the game
+- Add a win conditon for each level
+- Each level the enemies will be faster
+- Restart game option
